@@ -107,7 +107,8 @@ header {
   border-bottom: 2px double blue;
   line-height: 50px;
   font-size: 30px;
-  font-family: 'Russo One', sans-serif; }
+  font-family: "Russo One";
+  background-color: inherit; }
 
 .boton--origen {
   border-radius: 8px;

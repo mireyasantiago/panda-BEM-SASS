@@ -14,3 +14,10 @@
   width: $ancho;
   height: $alto;
 }
+@mixin bloque($line-alto,$fuente-tam,$fuente-texto, $color-fondo) {
+  line-height: $line-alto;
+  font-size: $fuente-tam;
+  font-family: $fuente-texto;
+  background-color: $color-fondo;
+
+}

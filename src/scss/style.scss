@@ -22,9 +22,7 @@ a{
 }
 header{
   border-bottom: 2px double blue;
-  line-height: 50px;
-  font-size: 30px;
-  font-family: 'Russo One', sans-serif;
+  @include bloque(50px,30px, 'Russo One',inherit);
 }
 .boton--origen {
 	@include boton(8px, $verde-primavera, $azul);
@@ -56,5 +54,4 @@ section{
 body{
   //background: linear-gradient(to right, red , blue);
   background: Linear-gradient(to left,$verde-primavera ,$lightcyan);
-
 }
