@@ -1,0 +1,44 @@
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+.row{
+  &:before{
+    content: "";
+    display: table;
+  }
+  &:after{
+    @extend .row:before;
+    clear: both;
+  }
+}
+
+[class*="col-"]{
+  min-width: 7px;
+  padding: 12px;
+  float: left;
+}
+
+//funcion para crear las columnas
+
+@function grid($numero){
+  @return percentage($numero/12);
+}
+@for $columna from 1 through 12{
+  .col-#{$columna}{
+    width: grid($columna);
+  }
+}
+
+//funcion para crear desplazamiento
+
+@function desplazamiento($margen) {
+    @return percentage(($margen/12));
+}
+
+@for $columna-desplazada from 1 through 12 {
+    .offset-#{$columna-desplazada} {
+        margin-left: desplazamiento($columna-desplazada);
+    }
+}

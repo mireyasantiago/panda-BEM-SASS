@@ -1,0 +1,44 @@
+#container {
+  width: 800px;
+  margin: 10px;
+  background: rgba(100, 200, 200, 0.5); }
+
+p {
+  font: 13px Arial; }
+
+h1 {
+  font: 34px Helvetica;
+  color: #0a07f7;
+  margin: 0 auto;
+  text-align: center; }
+
+h2 {
+  font: 34px Helvetica;
+  color: #0a07f7; }
+  h2:hover {
+    color: rgba(10, 10, 77, 0.5);
+    cursor: pointer; }
+
+td, #scores th {
+  background: #b61111;
+  font: 13px Arial; }
+  td:hover, #scores th:hover {
+    color: rgba(10, 10, 77, 0.5);
+    cursor: pointer; }
+
+#scores {
+  padding: 15px;
+  overflow-x: auto;
+  border-collapse: collapse; }
+  #scores table {
+    border-collapse: collapse;
+    background: rgba(100, 200, 200, 0.5); }
+  #scores td, #scores th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background: magenta; }
+  #scores th {
+    background: #464647; }
+
+/*# sourceMappingURL=style.css.map */
