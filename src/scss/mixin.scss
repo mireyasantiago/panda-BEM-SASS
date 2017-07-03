@@ -8,6 +8,7 @@
   color: $blanco;
 	background: $color-fondo;
   border-color: $color-borde;
+  cursor: pointer;
 }
 
 @mixin imagen__tamaño($ancho, $alto) {
