@@ -136,12 +136,18 @@ header {
   background: #20B2AA;
   border-color: #ff00ff; }
 
-p {
-  font-family: 'Gudea', sans-serif; }
+section.contenido__borde--color {
+  border: 6px groove #9400D3; }
+  section.contenido__borde--color p {
+    font-family: 'Gudea', sans-serif; }
 
 section {
   padding: 25px 0 25px 0; }
   section figure {
-    border: 5px double #000000; }
+    border: 6px inset lime;
+    background: #FFFAF0; }
+
+body {
+  background: Linear-gradient(to left, #00FF7F, #E0FFFF); }
 
 /*# sourceMappingURL=style.css.map */
