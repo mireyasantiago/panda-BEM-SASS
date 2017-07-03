@@ -17,7 +17,7 @@ a{
 #logo{
  width: 50%;
 }
-.imagenes__panda{
+.imagen--pandas{
   width: 200px;
   height: 200px;
 }
@@ -25,4 +25,13 @@ header{
   border-bottom: 2px double blue;
   line-height: 50px;
   font-size: 30px;
+}
+.boton--origen {
+	@include boton(8px, $verde-primavera, $azul);
+}
+.boton--extincion{
+  @include boton(6px,$violeta, $negro);
+}
+.boton--restaurar{
+  @include boton(7px, $verde-claro, $rosa);
 }

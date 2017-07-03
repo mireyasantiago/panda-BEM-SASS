@@ -99,7 +99,7 @@ a {
 #logo {
   width: 50%; }
 
-.imagenes__panda {
+.imagen--pandas {
   width: 200px;
   height: 200px; }
 
@@ -107,5 +107,32 @@ header {
   border-bottom: 2px double blue;
   line-height: 50px;
   font-size: 30px; }
+
+.boton--origen {
+  border-radius: 8px;
+  padding: 7px 12px;
+  margin-left: 50px;
+  border: 1px solid;
+  color: #FFFAF0;
+  background: #00FF7F;
+  border-color: blue; }
+
+.boton--extincion {
+  border-radius: 6px;
+  padding: 7px 12px;
+  margin-left: 50px;
+  border: 1px solid;
+  color: #FFFAF0;
+  background: #9400D3;
+  border-color: #000000; }
+
+.boton--restaurar {
+  border-radius: 7px;
+  padding: 7px 12px;
+  margin-left: 50px;
+  border: 1px solid;
+  color: #FFFAF0;
+  background: #20B2AA;
+  border-color: #ff00ff; }
 
 /*# sourceMappingURL=style.css.map */

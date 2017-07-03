@@ -1,0 +1,11 @@
+
+
+@mixin boton ($borde, $color-fondo, $color-borde) {
+  border-radius: $borde;
+	padding: 7px 12px;
+  margin-left: $margen-izquierda;
+	border: 1px solid;
+  color: $blanco;
+	background: $color-fondo;
+  border-color: $color-borde;
+}

@@ -39,6 +39,6 @@
 
 @for $columna-desplazada from 1 through 12 {
     .offset-#{$columna-desplazada} {
-        margin-left: desplazamiento($columna-desplazada);
+        margin-left: desplazamiento($columna-desplazada);//para recorrer en columnas
     }
 }
