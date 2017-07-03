@@ -25,6 +25,7 @@ header{
   border-bottom: 2px double blue;
   line-height: 50px;
   font-size: 30px;
+  font-family: 'Russo One', sans-serif;
 }
 .boton--origen {
 	@include boton(8px, $verde-primavera, $azul);
@@ -34,4 +35,13 @@ header{
 }
 .boton--restaurar{
   @include boton(7px, $verde-claro, $rosa);
+}
+p{
+  font-family: 'Gudea', sans-serif;
+}
+section{
+  padding: 25px 0 25px 0;
+  figure{
+    border: 5px double $negro;
+  }
 }

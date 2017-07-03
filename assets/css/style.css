@@ -106,7 +106,8 @@ a {
 header {
   border-bottom: 2px double blue;
   line-height: 50px;
-  font-size: 30px; }
+  font-size: 30px;
+  font-family: 'Russo One', sans-serif; }
 
 .boton--origen {
   border-radius: 8px;
@@ -134,5 +135,13 @@ header {
   color: #FFFAF0;
   background: #20B2AA;
   border-color: #ff00ff; }
+
+p {
+  font-family: 'Gudea', sans-serif; }
+
+section {
+  padding: 25px 0 25px 0; }
+  section figure {
+    border: 5px double #000000; }
 
 /*# sourceMappingURL=style.css.map */
